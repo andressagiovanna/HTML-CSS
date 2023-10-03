@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf)
+    format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #FCCE2A;
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 3px;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFEC94;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+
+iframe {
+    background-color: #EFBA01;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    color: #EFBA01;
+    background-color: #FFEC94;
+}
+
+aside > article > h4 {
+    background-color: #EFBA01;
+}
+
+aside {
+    background-color: #FFE571;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.grifar {
+    color: #FCCE2A;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background-color: #EFBA01;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
