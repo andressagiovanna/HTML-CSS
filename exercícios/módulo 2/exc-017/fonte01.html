@@ -6,20 +6,33 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
 
-        /* 
-            - Medidas Absolutas: (cm, mm, in, px, pt, pc)
+/* 
+    - Medidas Absolutas: (cm - centímetros, mm, in - polegadas, px - pixels, pt - pontos, pc - paicas)
             
-            - Medidas Relativas: (em, ex, rem, vw, vh, %)
-            - 16px, geralmente é igual a 1em
-            - Recomendação da W3C: Usar px ou em
-            - Weight: Peso
-            - Width: Largura
-            - Height: Altura
+    - Medidas Relativas: (em, ex, rem, vw, vh, %)
+    - 16px, geralmente é igual a 1em
+    - Recomendação da W3C: Usar px ou em
+    - Weight: Peso
+    - Width: Largura
+    - Height: Altura
 
-            - Font Weight: Lighter, Normal, Bold e Bolder (Numérica: 100 - 900)
+    - Font Weight: Lighter, Normal, Bold e Bolder (Numérica: 100 - 900)
 
-            - Text Decoration: Sublinhado
-            */
+    - Text Decoration: Sublinhado
+
+Em (em): O "em" é uma unidade de medida relativa. Ela é baseada no tamanho da fonte do elemento pai. Por exemplo, se o tamanho da fonte do elemento pai for 16 pixels, 1em será igual a 16 pixels. Se um elemento filho tiver seu tamanho definido como 2em, ele será duas vezes o tamanho da fonte do elemento pai.
+
+Mm (milímetros): O "mm" é uma unidade de medida absoluta, que corresponde a milímetros. É uma medida física que não depende do contexto da página ou do dispositivo de exibição. Por exemplo, você pode definir uma largura de 50mm para um elemento, e essa largura será consistente em diferentes dispositivos de exibição.
+
+Ex (ex): O "ex" é outra unidade de medida relativa, mas é baseada na altura da letra "x" no tipo de letra (fonte) do elemento. Isso pode ser útil para definir propriedades de altura com base no tamanho da fonte, como espaçamento entre linhas.
+
+Rem (root em): O "rem" é uma unidade de medida relativa que é baseada no tamanho da fonte do elemento raiz (normalmente o tamanho da fonte do elemento <html>). Isso torna o "rem" útil para manter uma consistência no design, pois não depende do tamanho da fonte dos elementos pais.
+
+Vw (viewport width): O "vw" é uma unidade de medida relativa à largura da janela de visualização (viewport) do navegador. 1vw é igual a 1% da largura da viewport. Por exemplo, se a largura da viewport for 1000 pixels, 1vw será igual a 10 pixels.
+
+Vh (viewport height): O "vh" é semelhante ao "vw", mas em vez de ser baseado na largura da viewport, é baseado na altura da viewport. 1vh é igual a 1% da altura da viewport.
+
+*/
 
         body {
             font-family: 'work Sans', Arial, Helvetica, sans-serif;
