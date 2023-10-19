@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
+
+<!-- 
+    (input) -> NAME: HTML e PHP
+    (input) -> ID: JAVASCRIPT e LABEL (Vem automaticamente, mas dá para pegar o name também)
+    LABEL -> Faz relação entre qual objeto de formulário e qual sua respectiva etiqueta.
+-->
+
+<!--
+    method="get" -> Informações na URL
+
+- QUANDO OS DADOS NÃO FOREM SENSÍVEIS
+- PARA QUE O LINK SEJA COMPARTILHAVEL
+- SÓ PODE ENVIAR ATÉ 3.000 BITES
+- NÃO TENHA ENVIO DE ARQUIVOS
+
+    method="post" -> Informações no cabeçalho das requisições (inspecionar site)
+
+- QUANDO OS DADOS FOREM SENSÍVEIS E NÃO QUEREMOS QUE APAREÇA NA URL DO NAVEGADOR
+- ENVIO DE FOTOS E ARQUIVOS
+- MAIS DE 3.000 BITES
+
+-->
