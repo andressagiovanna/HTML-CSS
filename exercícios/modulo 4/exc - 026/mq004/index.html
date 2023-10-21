@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/media-query.css">
+    <title>Media Query</title>
+</head>
+<body>
+    <main>
+        <h1>Testando Media Queries</h1>
+        <img id="phone" src="imagens/icon-phone.png" alt="Acessando via Smartphone">
+        <img id="tablet" src="imagens/icon-tablet.png" alt="Acessando via Tablet">
+        <img id="print" src="imagens/icon-print.png" alt="Versão para Impressão">
+        <img id="pc" src="imagens/icon-pc.png" alt="Versaõ para PC">
+        <img id="tv" src="imagens/icon-tv.png" alt="Versão para Telas Grandes">
+    </main>
+</body>
+</html>
+
+<!--
+    O mobile first (o móvel primeiro), esquema proposto por Luke Wroblewski (foto) em 2009. Atualmente chefe de produtos Google, LukeW é considerado um dos “pais” dessa abordagem de desenvolvimento. 
+
+Segundo o princípio fundamental da filosofia mobile first, pensar primeiro na versão móvel trás algumas vantagens:
+
+• Uma maior divulgação do site, pois como vimos anteriormente, ferramentas de busca vão valorizá-lo.
+
+• Uma melhor experiência do usuário, que vai ter acesso ao conteúdo que foi pensado para que pudesse ser consumido de forma mais confortável e sem confusões.
+
+• Aumento na credibilidade, já que os visitantes vão ter a percepção (ainda que inconsciente) de que quem criou o site se preocupou com a sua experiência.
+
+• Otimização do carregamento, uma vez que sofremos com conexões lentas e dispositivos populares sem tanto poder de processamento.
+
+-->
+
+<!-- 
+/* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+    .example {background: red;}
+    }
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+    .example {background: green;}
+    }
+  
+/* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+    } 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+    } 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+    }
+-->
